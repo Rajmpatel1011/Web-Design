@@ -123,30 +123,40 @@
   padding: 0.5rem 0.75rem;
   position: relative;
   text-decoration: none;
+  font-family: "europa", sans-serif;
 }
 
 .navbar-item:hover {
-  color: #141c3a;
+  color: #6e07f3;
+  font-family: "europa", sans-serif;
 }
 
 .navbar-item1 {
-  /* border: 10px solid #6e07f3; */
-  /* border-width: 2px; */
-  font-weight: 400;
   font-size: 18px;
-  padding: 1.2rem;
+  padding: 12px;
   background-color: transparent;
-  border-color: #6e07f3;
   color: #6e07f3;
   border-radius: 9999px;
   font-family: "europa", sans-serif;
-  /* -webkit-transition: all 0.2s ease-in-out; */
-  font-weight: 400;
   cursor: pointer;
   justify-content: center;
   text-align: center;
   text-decoration: none;
+  border-color: #6e07f3;
+  /* background-color: #6e07f3; */
+  /* font-weight: 400; */
+  /* -webkit-transition: all 0.2s ease-in-out; */
+  /* border-width: 2px; */
+  /* border: 10px solid #6e07f3; */
   /* white-space: nowrap; */
+}
+
+.navbar-item1:hover {
+  color: white;
+  background-color: #6e07f3;
+  border-color: #6e07f3;
+  font-family: "europa", sans-serif;
+  /* border: 10px solid #6e07f3; */
 }
 
 . a:link {
@@ -379,9 +389,9 @@
   line-height: 1.5;
   font-weight: 400;
   color: #6e07f3;
-  /* margin: 0; */
   padding: 0;
   font-family: "eurostile", sans-serif;
+  /* margin: 0; */
 }
 
 .tools {
@@ -391,12 +401,12 @@
   margin: 0;
   padding: 0;
   border: 0;
-  /* font-size: 100%; */
   font: inherit;
   vertical-align: baseline;
   box-sizing: inherit;
   font-family: "eurostile", sans-serif;
   line-height: 2;
+  /* font-size: 100%; */
 }
 
 .section-project {
@@ -448,14 +458,14 @@
 }
 
 .project-grid {
-  padding-top: 4rem;
-  padding: 2rem 0 4rem;
+  /* padding-top: 4rem; */
+  padding: 4rem 0 4rem;
   margin: 0;
-  /* padding: 0; */
   border: 0;
-  /* font-size: 100%; */
   font: inherit;
   vertical-align: baseline;
+  /* padding: 0; */
+  /* font-size: 100%; */
 }
 
 .columns-multiline {
@@ -472,4 +482,13 @@
   width: 33.3333%;
   display: block;
   padding: 0.75rem;
+}
+
+.image-3by2 {
+  position: relative;
+  border-radius: 30px;
+  display: block;
+  /* margin-right: 60px; */
+  /* padding-top: 66.6666%; */
+  /* overflow: hidden; */
 }
