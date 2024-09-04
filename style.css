@@ -223,7 +223,7 @@
   height: auto;
 }
 
-.Matt {
+.section-Matt {
   background-color: #6e07f3;
   padding: 80px 72px 288px 72px;
   text-align: center;
@@ -235,19 +235,19 @@
   padding-right: 72px; */
 }
 
-.test {
+.matt {
   /* padding: 0; */
   /* width: 66%; */
 }
 
-.test1 {
+.matt-1 {
   color: white;
   font-size: 2rem;
   font-family: "europa", sans-serif;
   vertical-align: baseline;
 }
 
-.test2 {
+.matt-2 {
   color: white;
   font-family: "europa", sans-serif;
   vertical-align: baseline;
@@ -733,4 +733,305 @@
   line-height: 1.125;
   word-break: break-word;
   font-family: "eurostile", sans-serif;
+}
+
+.client-grid {
+  padding-top: 54px;
+  /* margin: 0; */
+  /* padding: 0; */
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: inherit;
+}
+
+.columns-mobile-client {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.75rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.columns-half-mobile {
+  flex: none;
+  width: 25%;
+  display: block;
+  /* padding: 0.75rem; */
+}
+
+.image-2x1 {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.client-logo {
+  display: block;
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+.section-startup-project {
+  padding-bottom: 14rem;
+  background-color: #6e07f3;
+  color: white;
+  padding: 9rem 4.5rem;
+  text-align: center;
+  display: block;
+}
+
+/* start */
+
+.section-startup-project-box {
+  padding-bottom: 9rem;
+  margin-top: -14rem;
+  padding: 5rem 1.5rem;
+  text-align: center;
+  display: block;
+
+  margin: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+
+.startup-container {
+  max-width: 1200px;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+.startup-grid {
+  margin-bottom: 6rem;
+}
+
+.startup-columns-multiline-level {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -0.75rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column-box-startup {
+  flex-grow: 1;
+  flex: none;
+  width: 33.3333%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-startup {
+  padding: 60px 35px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #e6ecf8;
+  color: #141c3a;
+  display: block;
+}
+
+.startup-logo {
+  height: 36px;
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 1.5rem;
+  max-width: 100%;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  color: #1a8cff;
+  cursor: pointer;
+  text-decoration: none;
+
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+.tag-link-startup {
+  background-color: #ebf5ff;
+  color: #0068d1;
+  font-size: 1rem;
+
+  align-items: center;
+  /* background-color: whitesmoke; */
+  border-radius: 4px;
+  /* color: #141c3a; */
+  display: inline-flex;
+  /* font-size: 0.75rem; */
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.i-link {
+}
+
+.tag-link-startup-danger {
+  background-color: #feecf0;
+  color: #cc0f35;
+  font-size: 1rem;
+}
+
+.tag-link-startup-danger:hover {
+  align-items: center;
+  /* background-color: whitesmoke; */
+  border-radius: 4px;
+  /* color: #141c3a; */
+  display: inline-flex;
+  /* font-size: 0.75rem; */
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.i-link-circle {
+}
+
+.tag-link-startup-danger-success {
+  background-color: #edfdf7;
+  color: #11825c;
+  font-size: 1rem;
+}
+
+.tag-link-startup-danger-success:hover {
+  align-items: center;
+  /* background-color: whitesmoke; */
+  border-radius: 4px;
+  /* color: #141c3a; */
+  display: inline-flex;
+  /* font-size: 0.75rem; */
+  height: 2em;
+  justify-content: center;
+  line-height: 1.5;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  white-space: nowrap;
+
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+.i-link-handshake {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.callout {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.columns-centered-collout {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -0.75rem;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+}
+
+.column-callout {
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 0.75rem;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.title-spaced-callout {
+  font-size: 26px;
+  margin-bottom: 1.5rem;
+  color: #141c3a;
+  font-weight: 700px;
+  line-height: 1.125;
+  word-break: break-word;
+  font-family: "eurostile", sans-serif;
+}
+
+.subtitle-callout {
+  margin-bottom: 1.5rem;
+  font-family: "europa", sans-serif;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  color: #141c3a;
+  word-break: break-word;
+}
+
+.button-callout {
+  background-color: transparent;
+  border-color: #6e07f3;
+  color: #6e07f3;
+  padding: 1.25em 2em;
+  border-width: 2px;
+  margin-top: 2rem;
+  border-radius: 9999px;
+  font-size: 1.25rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+
+  position: relative;
+  vertical-align: top;
+
+  line-height: 1.5;
+  height: 2.5em;
+  display: inline-flex;
+  box-shadow: none;
+
+  -webkit-appearance: none;
+  align-items: center;
+  border: 1px solid transparent;
+}
+
+.icon-callout {
+  margin-left: calc(-0.5em - 1px);
+  margin-right: 0.25em;
+  height: 1.5em;
+  width: 1.5em;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  font-style: inherit;
+  font-weight: inherit;
 }
